@@ -1,0 +1,36 @@
+[
+  {
+     "_id":1,"title":"Games","img":"https://i.discogs.com/ZvwtMNAlrnCUMtYqYBUtKtgphSjcPpfwVlOAAqwu5iU/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTI0/ODc5LTE1OTMwNDY4/MDYtNDc4My5qcGVn.jpeg","episodes":[1, 2, 3, 4, 5, 6, 7]  },
+  {
+     "_id":2,"title":"The Fable","img":"https://images-na.ssl-images-amazon.com/images/I/810e+srnq1L.jpg","episodes":[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]  },
+  {
+     "_id":3,"title":"The IT Guy","img":"https://thinktreemedia.in/blog/wp-content/uploads/2019/02/WhatsApp-Image-2019-02-18-at-11.28.56-AM-749x675.jpeg","episodes":[22, 23, 24, 25, 26, 27, 28, 29, 30, 31]  },
+  {
+     "_id":4,"title":"The Hospital","img":"https://images-na.ssl-images-amazon.com/images/I/71w7csjaX2L.jpg","episodes":[32, 33, 34, 35, 36, 37, 38, 39, 40]  },
+  {
+     "_id":5,"title":"The Killers","img":"https://www.independent.ie/migration_catalog/Non-Staff/3f9cc/25077104.ece/AUTOCROP/w620/Killers_Independent","episodes":[41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]  },
+  {
+     "_id":6,"title":"Maniac Man","img":"https://st3.depositphotos.com/1006542/13558/i/450/depositphotos_135585836-stock-photo-maniac-shows-do-not-talk.jpg","episodes":[53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67]  },
+  {
+     "_id":7,"title":"Adventures with Eric","img":"https://kbimages1-a.akamaihd.net/3c94475e-90f1-43a8-a4a6-4a3f9c0cc3b1/1200/1200/False/adventures-with-eric-eric-s-magic-world-of-misadventure.jpg","episodes":[68, 69, 70, 71, 72, 73, 74, 75, 76, 77]  },
+  {
+     "_id":8,"title":"Military Police","img":"https://thewarhorse.org/wp-content/uploads/2020/11/6410714-web.jpg","episodes":[78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]  },
+  {
+     "_id":9,"title":"The Streets of LA","img":"https://ca-times.brightspotcdn.com/dims4/default/5694bad/2147483647/strip/true/crop/4017x2466+0+0/resize/2000x1228!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff3%2F13%2F2a37e35d4ada823f0c29ca2e3458%2Fla-photos-1staff-la-photos-1staff-718415-et-cruising-culture-06-mjc.jpg","episodes":[90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102]  },
+  {
+     "_id":10,"title":"Puzzles","img":"https://www.bootsphoto.com/cdn/s2/cz/S2czMEpSU1o5VDdDZ2psNFFFTy9tRk5URUxkNTFGK1NlbVpwU2NmaHpQNk84MTNQdnVQTEdjcU9vZkxKd3RYc29tY2xaaUFjcml0VXptTkx1YnlVQWtkRFNNRDgyMTBDVEczb1dpR0hxdzA9","episodes":[103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118]  },
+  {
+     "_id":11,"title":"Spy School","img":"https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1538763370397-9PBDYNKN876SDVV7BN1W/image-asset.jpeg","episodes":[119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129]  },
+  {
+     "_id":12,"title":"Spectacular Power","img":"https://images-na.ssl-images-amazon.com/images/I/41HwJ3dqO3L._SX298_BO1,204,203,200_.jpg","episodes":[130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143]  },
+  {
+     "_id":13,"title":"Upper Story","img":"https://m.media-amazon.com/images/M/MV5BOWFhMWE4ZjctZDY4OS00ZjNhLWFjYjUtOTg0YzIyZmVmZmExXkEyXkFqcGdeQXVyOTc4OTU0NjQ@._V1_.jpg","episodes":[144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156]  },
+  {
+     "_id":14,"title":"Chicago Flame","img":"https://i.ytimg.com/vi/GdBQicca884/maxresdefault.jpg","episodes":[157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167]  },
+  {
+     "_id":15,"title":"The Elite Minds","img":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400249851l/18756719.jpg","episodes":[168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183]  },
+  {
+     "_id":16,"title":"Shrinktime","img":"https://www.shrinkwrap.co.uk/wp-content/uploads/2017/01/Shrink-Timer-6-Seconds-0009A-e1488211054425.jpg","episodes":[184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218]  },
+  {
+     "_id":17,"title":"Perfectly Numb","img":"https://m.media-amazon.com/images/M/MV5BYzIxZDRlNmMtYzkzZS00OGJhLThkNmQtN2RlZjcyYTFmZjI0XkEyXkFqcGdeQXVyMjM4NzE0OTI@._V1_FMjpg_UX1131_.jpg","episodes":[219]  }
+]
