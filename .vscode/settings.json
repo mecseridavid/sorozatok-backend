@@ -24,7 +24,7 @@
     "files.autoSave": "afterDelay",
     "files.eol": "\r\n",
     "files.exclude": {
-        "**/.git": true,
+        "**/.git": false,
         "**/.gitignore": false,
         "**/.vscode": false,
         "**/tsconfig.json": false,

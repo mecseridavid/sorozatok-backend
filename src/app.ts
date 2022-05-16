@@ -40,7 +40,7 @@ export default class App {
         // Enabled CORS:
         this.app.use(
             cors({
-                origin: ["https://jedlik-vite-template.netlify.app", "https://jedlik-vite-ts-template.netlify.app", "http://localhost:8080"],
+                origin: ["http://localhost:8080"],
                 credentials: true,
                 exposedHeaders: ["set-cookie"],
             }),
@@ -59,25 +59,33 @@ export default class App {
     }
 
     private connectToTheDatabase() {
-        // const { MONGO_USER, MONGO_PASSWORD, MONGO_PATH, MONGO_DB } = process.env;
-        // // Connect to MongoDB Atlas, create database if not exist::
-        // mongoose.connect(`mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}${MONGO_PATH}${MONGO_DB}?retryWrites=true&w=majority`, err => {
-        //     if (err) {
-        //         console.log("Unable to connect to the server. Please start MongoDB.");
-        //     }
-        // });
-
-        mongoose.connect("mongodb://localhost:27017/sorozatok", err => {
-            if (err) {
-                console.log("Unable to connect to the server. Please start MongoDB.");
-            }
-        });
+        if (process.env.NODE_ENV === "development") {
+            mongoose.connect("mongodb://localhost:27017/sorozatok", err => {
+                if (err) {
+                    console.log("Unable to connect to the server. Please start MongoDB.");
+                }
+            });
+        } else {
+            const { MONGO_USER, MONGO_PASSWORD, MONGO_PATH, MONGO_DB } = process.env;
+            // Connect to MongoDB Atlas, create database if not exist::
+            mongoose.connect(`mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}${MONGO_PATH}${MONGO_DB}?retryWrites=true&w=majority`, err => {
+                if (err) {
+                    console.log("Unable to connect to the server. Please check your connection string.");
+                }
+            });
+        }
 
         mongoose.connection.on("error", (error: Error) => {
             console.log(`Mongoose error message: ${error.message}`);
         });
-        mongoose.connection.on("connected", () => {
-            console.log("Connected to MongoDB server.");
-        });
+        if (process.env.NODE_ENV === "development") {
+            mongoose.connection.on("connected", () => {
+                console.log("Connected to local MongoDB server.");
+            });
+        } else {
+            mongoose.connection.on("connected", () => {
+                console.log("Connected to atlas MongoDB server.");
+            });
+        }
     }
 }
