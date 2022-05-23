@@ -8,13 +8,13 @@ with open("lista.txt", "r") as textFile:
     title_list.append(["_id", "title", "img", "episodes"])
     for i, title in enumerate(textFile.read().splitlines()):
         if i % 5 == 1:
-            print(i, title)
+            # print(i, title)
             if title not in titles:
                 titles.append(title)
 
-print(titles)
+# print(titles)
 for i, title in enumerate(titles):
-    print(i, title)
+    # print(i, title)
     title_list.append([i + 1, title, "", []])
 
 episode_counter = 1
@@ -52,8 +52,8 @@ with open("lista.txt", "r") as textFile:
 # print(title_list)
 # print(episode_list)
 
-for row in title_list:
-    print(row)
+# for row in title_list:
+#     print(row)
 
 
 with open('titles.csv', "w", newline='') as file:

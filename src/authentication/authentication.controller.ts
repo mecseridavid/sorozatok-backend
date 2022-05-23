@@ -53,9 +53,11 @@ export default class AuthenticationController implements Controller {
     private loggingIn = async (req: Request, res: Response, next: NextFunction) => {
         try {
             let user;
-            const logInData: Login = req.body;
+            let logInData: Login;
 
-            if (logInData.usernameOrEmail) {
+            if (req.body && req.body.usernameOrEmail) {
+                logInData = req.body;
+                // console.log(logInData);
                 const byUsername = { username: logInData.usernameOrEmail };
                 const byEmail = { email: logInData.usernameOrEmail };
                 if (await this.user.exists(byUsername)) {

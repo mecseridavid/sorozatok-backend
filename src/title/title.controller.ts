@@ -19,7 +19,7 @@ export default class TitleController implements Controller {
 
     private initializeRoutes() {
         this.router.get(`${this.path}s`, this.getAllTitles);
-        this.router.get(`${this.path}/:offset/:limit/:sortorder/:keyword?`, this.getPaginatedTitle);
+        this.router.get(`${this.path}/:offset/:limit/:order/:sort/:keyword?`, this.getPaginatedTitle);
         this.router.get(`${this.path}/:id`, this.getTitleById);
         this.router.post(this.path, [authMiddleware, validationMiddleware(CreateTitleDto)], this.addNewTitle);
         this.router.patch(`${this.path}/:id`, [authMiddleware, validationMiddleware(CreateTitleDto, true)], this.modifyTitle);
@@ -43,19 +43,22 @@ export default class TitleController implements Controller {
             const sort = parseInt(req.params.sort);
             let titleResponse = [];
             let count = 0;
-            console.log({ ...req.params });
+            // console.log({ ...req.params });
+            // console.log(`${sort == -1 ? "-" : ""}${order}`)
             if (req.params.keyword) {
                 const regex = new RegExp(req.params.keyword, "i");
                 count = await this.title.find({ title: { $regex: regex } }).count();
                 titleResponse = await this.title
                     .find({ title: { $regex: regex } })
+                    .populate("episodes", "-title")
                     .sort(`${sort == -1 ? "-" : ""}${order}`)
                     .skip(offset)
                     .limit(limit);
             } else {
                 count = await this.title.countDocuments();
                 titleResponse = await this.title
-                    .find({})
+                    .find()
+                    .populate("episodes", "-title")
                     .sort(`${sort == -1 ? "-" : ""}${order}`)
                     .skip(offset)
                     .limit(limit);
