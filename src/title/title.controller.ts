@@ -19,8 +19,8 @@ export default class TitleController implements Controller {
 
     private initializeRoutes() {
         this.router.get(`${this.path}s`, this.getAllTitles);
+        this.router.get(`${this.path}/:id`, authMiddleware, this.getTitleById);
         this.router.get(`${this.path}/:offset/:limit/:order/:sort/:keyword?`, this.getPaginatedTitle);
-        this.router.get(`${this.path}/:id`, this.getTitleById);
         this.router.post(this.path, [authMiddleware, validationMiddleware(CreateTitleDto)], this.addNewTitle);
         this.router.patch(`${this.path}/:id`, [authMiddleware, validationMiddleware(CreateTitleDto, true)], this.modifyTitle);
         this.router.delete(`${this.path}/:id`, authMiddleware, this.deleteTitle);

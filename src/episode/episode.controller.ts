@@ -21,7 +21,7 @@ export default class EpisodeController implements Controller {
 
     private initializeRoutes() {
         this.router.get(`${this.path}s`, this.getAllEpisode);
-        this.router.get(`${this.path}/:id`, this.getEpisodeById);
+        this.router.get(`${this.path}/:id`, authMiddleware, this.getEpisodeById);
         this.router.post(this.path, [authMiddleware, validationMiddleware(CreateEpisodeDto)], this.createNewEpisode);
         this.router.patch(`${this.path}/:id`, [authMiddleware, validationMiddleware(CreateEpisodeDto, true)], this.modifyEpisode);
         this.router.patch(`${this.path}/:id/:from/:to`, [authMiddleware, validationMiddleware(CreateEpisodeDto, true)], this.modifyEpisodesTitle);
