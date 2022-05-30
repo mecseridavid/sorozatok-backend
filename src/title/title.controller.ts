@@ -106,8 +106,9 @@ export default class TitleController implements Controller {
         try {
             const id = req.params.id;
             if (await this.title.exists({ _id: id })) {
-                const { title, image } = req.body;
-                this.title.findByIdAndUpdate(id, { $set: { title: title, img: image } }, { returnDocument: "after" }).then((title: Title) => {
+                console.log(req.body);
+                const { title, img } = req.body;
+                this.title.findByIdAndUpdate(id, { $set: { title: title, img: img } }, { returnDocument: "after" }).then((title: Title) => {
                     res.send(title);
                 });
             } else {

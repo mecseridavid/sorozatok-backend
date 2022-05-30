@@ -24,6 +24,7 @@ export default class EpisodeController implements Controller {
         this.router.get(`${this.path}/:id`, authMiddleware, this.getEpisodeById);
         this.router.post(this.path, [authMiddleware, validationMiddleware(CreateEpisodeDto)], this.createNewEpisode);
         this.router.patch(`${this.path}/:id`, [authMiddleware, validationMiddleware(CreateEpisodeDto, true)], this.modifyEpisode);
+        // this.router.patch(`${this.path}/:id/:to`, authMiddleware, this.addEpisodeToTitle);
         this.router.patch(`${this.path}/:id/:from/:to`, [authMiddleware, validationMiddleware(CreateEpisodeDto, true)], this.modifyEpisodesTitle);
         this.router.delete(`${this.path}/:id`, authMiddleware, this.deleteEpisode);
     }
@@ -125,7 +126,9 @@ export default class EpisodeController implements Controller {
     private deleteEpisode = async (req: Request, res: Response, next: NextFunction) => {
         try {
             const id = req.params.id;
-            if (await this.episode.exists({ id: id })) {
+            // console.log(id, await this.episode.exists({ _id: id }));
+            if (await this.episode.exists({ _id: id })) {
+                // res.send(await this.episode.find({ _id: id }));
                 const successResponse = await this.episode.findByIdAndDelete(id).then(async (episode: Episode) => {
                     await this.title.findByIdAndUpdate(episode.title, { $pull: { episodes: episode._id } });
                 });
@@ -133,6 +136,7 @@ export default class EpisodeController implements Controller {
             } else {
                 next(new IdNotValidException(id));
             }
+            // res.sendStatus(200);
         } catch (error) {
             next(new HttpException(400, error.message));
         }

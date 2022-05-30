@@ -5,8 +5,8 @@ CLS
 SET db=sorozatok
 :: titles, episodes, users, identitycounters
 
-SET import="c:\Program Files\MongoDB\Server\5.0\bin\mongoimport.exe"
-SET export="c:\Program Files\MongoDB\Server\5.0\bin\mongoexport.exe"
+SET import="C:\fontos\mongodb\bin\mongoimport.exe"
+SET export="C:\fontos\mongodb\bin\mongoexport.exe"
 SET local="mongodb://localhost:27017/%db%"
 
 ECHO 1.Import

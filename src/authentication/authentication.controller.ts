@@ -75,6 +75,7 @@ export default class AuthenticationController implements Controller {
                     user.password = undefined;
                     const tokenData = createToken(user);
                     // console.log(tokenData);
+                    // res.cookie("Set-Cookie", [createCookie(tokenData)]);
                     res.setHeader("Set-Cookie", [createCookie(tokenData)]);
                     res.send(user);
                 } else {
