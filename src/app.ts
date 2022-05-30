@@ -39,8 +39,8 @@ export default class App {
         this.app.use(cookieParser());
         // Enabled CORS:
         this.app.use(
-            cors({
-                origin: ["https://6294a015d3a79e0a80a36497--harmonious-concha-72bcb1.netlify.app/", "http://localhost:8080"],
+            cors(<cors.CorsOptions>{
+                origin: ["https://6294a015d3a79e0a80a36497--harmonious-concha-72bcb1.netlify.app", "http://localhost:8080"],
                 credentials: true,
                 exposedHeaders: ["set-cookie"],
             }),
