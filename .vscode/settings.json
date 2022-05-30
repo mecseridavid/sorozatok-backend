@@ -38,5 +38,6 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "vscode-edge-devtools.webhint": false
+    "vscode-edge-devtools.webhint": false,
+    "terminal.integrated.shellIntegration.enabled": true
 }
