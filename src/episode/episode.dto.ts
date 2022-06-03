@@ -1,10 +1,10 @@
-import { IsBoolean, IsDateString, IsNumber, IsOptional } from "class-validator";
+import { IsBoolean, IsNumber, IsOptional, Matches } from "class-validator";
 
 export default class CreateEpisodeDto {
     @IsNumber()
     public title: number;
 
-    @IsDateString()
+    @Matches("^((19|2\\d)\\d{2})\\.(0[1-9]|1[012])\\.(0[1-9]|[12]\\d|3[01])$", "", { message: "Must be yyyy.MM.dd!" })
     @IsOptional()
     public date?: string;
 

@@ -6,9 +6,8 @@ import DataStoredInToken from "../interfaces/dataStoredInToken";
 import RequestWithUser from "../interfaces/requestWithUser.interface";
 import userModel from "../user/user.model";
 
-export default async function authMiddleware(req: RequestWithUser, res: Response, next: NextFunction): Promise<void> {
+export default async function authMiddleware(req: RequestWithUser, _res: Response, next: NextFunction): Promise<void> {
     const cookies = req.cookies;
-    // console.log(cookies);
     if (cookies && cookies.Authorization) {
         const secret = process.env.JWT_SECRET;
         try {

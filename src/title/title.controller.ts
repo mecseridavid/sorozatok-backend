@@ -26,7 +26,7 @@ export default class TitleController implements Controller {
         this.router.delete(`${this.path}/:id`, authMiddleware, this.deleteTitle);
     }
 
-    private getAllTitles = async (req: Request, res: Response, next: NextFunction) => {
+    private getAllTitles = async (_req: Request, res: Response, next: NextFunction) => {
         try {
             const titles = await this.title.find().populate("episodes", "-title");
             res.send(titles);
@@ -43,8 +43,6 @@ export default class TitleController implements Controller {
             const sort = parseInt(req.params.sort);
             let titleResponse = [];
             let count = 0;
-            // console.log({ ...req.params });
-            // console.log(`${sort == -1 ? "-" : ""}${order}`)
             if (req.params.keyword) {
                 const regex = new RegExp(req.params.keyword, "i");
                 count = await this.title.find({ title: { $regex: regex } }).count();
@@ -89,14 +87,12 @@ export default class TitleController implements Controller {
     private addNewTitle = async (req: Request, res: Response, next: NextFunction) => {
         try {
             const titleData: Title = req.body;
-            this.title
-                .create({
-                    ...titleData,
-                })
-                .then((title: Title) => {
-                    res.send(title);
-                    // res.send(await (await this.title.findOne({ title: title.title })).populate("episodes", "-_id -titleID -watched"));
-                });
+            const response = await this.title.create({
+                ...titleData,
+            });
+            if (response) {
+                res.send(response);
+            }
         } catch (error) {
             next(new HttpException(400, error.message));
         }
@@ -106,10 +102,9 @@ export default class TitleController implements Controller {
         try {
             const id = req.params.id;
             if (await this.title.exists({ _id: id })) {
-                console.log(req.body);
                 const { title, img } = req.body;
-                this.title.findByIdAndUpdate(id, { $set: { title: title, img: img } }, { returnDocument: "after" }).then((title: Title) => {
-                    res.send(title);
+                this.title.findByIdAndUpdate(id, { $set: { title: title, img: img } }, { returnDocument: "after" }).then((titleRes: Title) => {
+                    res.send(titleRes);
                 });
             } else {
                 next(new IdNotValidException(id));

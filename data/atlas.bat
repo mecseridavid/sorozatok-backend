@@ -4,10 +4,11 @@ CLS
 
 SET db=sorozatok
 SET atlasAuth=enztu
+SET mongoPath=C:\fontos\mongodb\bin
 :: titles, episodes, users, identitycounters
 
-SET import="c:\Program Files\MongoDB\Server\5.0\bin\mongoimport.exe"
-SET export="c:\Program Files\MongoDB\Server\5.0\bin\mongoexport.exe"
+SET import="%mongoPath%\mongoimport.exe"
+SET export="%mongoPath%\mongoexport.exe"
 SET atlas="mongodb+srv://m001-student:m001-student@sandbox.%atlasAuth%.mongodb.net/%db%"
 
 ECHO 1. -- Import --
