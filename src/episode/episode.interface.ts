@@ -6,5 +6,5 @@ export default interface Episode {
     season: number;
     episode: number;
     duration: number;
-    watched?: boolean;
+    watched?: number;
 }

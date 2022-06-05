@@ -6,7 +6,6 @@ export default class CreateTitleDto {
     public _id?: number;
 
     @IsUrl()
-    @IsOptional()
     public img?: string;
 
     @IsString()

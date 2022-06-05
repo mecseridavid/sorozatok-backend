@@ -6,7 +6,7 @@
     "season": 7,
     "episode": 1,
     "duration": 60,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 2,
@@ -15,7 +15,7 @@
     "season": 7,
     "episode": 2,
     "duration": 60,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 3,
@@ -24,7 +24,7 @@
     "season": 7,
     "episode": 3,
     "duration": 60,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 4,
@@ -33,7 +33,7 @@
     "season": 7,
     "episode": 4,
     "duration": 60,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 5,
@@ -42,7 +42,7 @@
     "season": 7,
     "episode": 5,
     "duration": 60,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 6,
@@ -51,7 +51,7 @@
     "season": 7,
     "episode": 6,
     "duration": 60,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 7,
@@ -60,7 +60,7 @@
     "season": 7,
     "episode": 7,
     "duration": 60,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 8,
@@ -69,7 +69,7 @@
     "season": 7,
     "episode": 1,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 9,
@@ -78,7 +78,7 @@
     "season": 7,
     "episode": 2,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 10,
@@ -87,7 +87,7 @@
     "season": 7,
     "episode": 3,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 11,
@@ -96,7 +96,7 @@
     "season": 7,
     "episode": 4,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 12,
@@ -105,7 +105,7 @@
     "season": 7,
     "episode": 5,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 13,
@@ -114,7 +114,7 @@
     "season": 7,
     "episode": 6,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 14,
@@ -123,7 +123,7 @@
     "season": 7,
     "episode": 7,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 15,
@@ -132,7 +132,7 @@
     "season": 7,
     "episode": 8,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 16,
@@ -141,7 +141,7 @@
     "season": 7,
     "episode": 9,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 17,
@@ -150,7 +150,7 @@
     "season": 7,
     "episode": 10,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 18,
@@ -159,34 +159,34 @@
     "season": 7,
     "episode": 11,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 19,
-    "date": null,
+    "date": "",
     "title": 2,
     "season": 7,
     "episode": 12,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 20,
-    "date": null,
+    "date": "",
     "title": 2,
     "season": 7,
     "episode": 13,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 21,
-    "date": null,
+    "date": "",
     "title": 2,
     "season": 7,
     "episode": 14,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 22,
@@ -195,7 +195,7 @@
     "season": 3,
     "episode": 1,
     "duration": 45,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 23,
@@ -204,7 +204,7 @@
     "season": 3,
     "episode": 2,
     "duration": 45,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 24,
@@ -213,7 +213,7 @@
     "season": 3,
     "episode": 3,
     "duration": 45,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 25,
@@ -222,7 +222,7 @@
     "season": 3,
     "episode": 4,
     "duration": 45,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 26,
@@ -231,7 +231,7 @@
     "season": 3,
     "episode": 5,
     "duration": 45,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 27,
@@ -240,7 +240,7 @@
     "season": 3,
     "episode": 6,
     "duration": 45,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 28,
@@ -249,7 +249,7 @@
     "season": 3,
     "episode": 7,
     "duration": 45,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 29,
@@ -258,7 +258,7 @@
     "season": 3,
     "episode": 8,
     "duration": 45,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 30,
@@ -267,7 +267,7 @@
     "season": 3,
     "episode": 9,
     "duration": 45,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 31,
@@ -276,7 +276,7 @@
     "season": 3,
     "episode": 10,
     "duration": 45,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 32,
@@ -285,7 +285,7 @@
     "season": 14,
     "episode": 1,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 33,
@@ -294,7 +294,7 @@
     "season": 14,
     "episode": 2,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 34,
@@ -303,7 +303,7 @@
     "season": 14,
     "episode": 3,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 35,
@@ -312,7 +312,7 @@
     "season": 14,
     "episode": 4,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 36,
@@ -321,7 +321,7 @@
     "season": 14,
     "episode": 5,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 37,
@@ -330,7 +330,7 @@
     "season": 14,
     "episode": 6,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 38,
@@ -339,7 +339,7 @@
     "season": 14,
     "episode": 7,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 39,
@@ -348,7 +348,7 @@
     "season": 14,
     "episode": 8,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 40,
@@ -357,7 +357,7 @@
     "season": 14,
     "episode": 9,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 41,
@@ -366,7 +366,7 @@
     "season": 13,
     "episode": 1,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 42,
@@ -375,7 +375,7 @@
     "season": 13,
     "episode": 2,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 43,
@@ -384,7 +384,7 @@
     "season": 13,
     "episode": 3,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 44,
@@ -393,7 +393,7 @@
     "season": 13,
     "episode": 4,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 45,
@@ -402,7 +402,7 @@
     "season": 13,
     "episode": 5,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 46,
@@ -411,7 +411,7 @@
     "season": 13,
     "episode": 6,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 47,
@@ -420,7 +420,7 @@
     "season": 13,
     "episode": 7,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 48,
@@ -429,7 +429,7 @@
     "season": 13,
     "episode": 8,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 49,
@@ -438,7 +438,7 @@
     "season": 13,
     "episode": 9,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 50,
@@ -447,7 +447,7 @@
     "season": 13,
     "episode": 10,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 51,
@@ -456,7 +456,7 @@
     "season": 13,
     "episode": 11,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 52,
@@ -465,7 +465,7 @@
     "season": 13,
     "episode": 12,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 53,
@@ -474,7 +474,7 @@
     "season": 3,
     "episode": 1,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 54,
@@ -483,7 +483,7 @@
     "season": 3,
     "episode": 2,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 55,
@@ -492,7 +492,7 @@
     "season": 3,
     "episode": 3,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 56,
@@ -501,7 +501,7 @@
     "season": 3,
     "episode": 4,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 57,
@@ -510,7 +510,7 @@
     "season": 3,
     "episode": 5,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 58,
@@ -519,7 +519,7 @@
     "season": 3,
     "episode": 6,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 59,
@@ -528,7 +528,7 @@
     "season": 3,
     "episode": 7,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 60,
@@ -537,7 +537,7 @@
     "season": 3,
     "episode": 8,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 61,
@@ -546,7 +546,7 @@
     "season": 3,
     "episode": 9,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 62,
@@ -555,7 +555,7 @@
     "season": 3,
     "episode": 10,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 63,
@@ -564,43 +564,43 @@
     "season": 3,
     "episode": 11,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 64,
-    "date": null,
+    "date": "",
     "title": 6,
     "season": 3,
     "episode": 12,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 65,
-    "date": null,
+    "date": "",
     "title": 6,
     "season": 3,
     "episode": 13,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 66,
-    "date": null,
+    "date": "",
     "title": 6,
     "season": 3,
     "episode": 14,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 67,
-    "date": null,
+    "date": "",
     "title": 6,
     "season": 3,
     "episode": 15,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 68,
@@ -609,7 +609,7 @@
     "season": 5,
     "episode": 1,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 69,
@@ -618,7 +618,7 @@
     "season": 5,
     "episode": 2,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 70,
@@ -627,7 +627,7 @@
     "season": 5,
     "episode": 3,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 71,
@@ -636,7 +636,7 @@
     "season": 5,
     "episode": 4,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 72,
@@ -645,7 +645,7 @@
     "season": 5,
     "episode": 5,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 73,
@@ -654,7 +654,7 @@
     "season": 5,
     "episode": 6,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 74,
@@ -663,7 +663,7 @@
     "season": 5,
     "episode": 7,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 75,
@@ -672,7 +672,7 @@
     "season": 5,
     "episode": 8,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 76,
@@ -681,7 +681,7 @@
     "season": 5,
     "episode": 9,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 77,
@@ -690,7 +690,7 @@
     "season": 5,
     "episode": 10,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 78,
@@ -699,7 +699,7 @@
     "season": 15,
     "episode": 1,
     "duration": 40,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 79,
@@ -708,7 +708,7 @@
     "season": 15,
     "episode": 2,
     "duration": 40,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 80,
@@ -717,7 +717,7 @@
     "season": 15,
     "episode": 3,
     "duration": 40,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 81,
@@ -726,7 +726,7 @@
     "season": 15,
     "episode": 4,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 82,
@@ -735,7 +735,7 @@
     "season": 15,
     "episode": 5,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 83,
@@ -744,7 +744,7 @@
     "season": 15,
     "episode": 6,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 84,
@@ -753,7 +753,7 @@
     "season": 15,
     "episode": 7,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 85,
@@ -762,7 +762,7 @@
     "season": 15,
     "episode": 8,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 86,
@@ -771,7 +771,7 @@
     "season": 15,
     "episode": 9,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 87,
@@ -780,7 +780,7 @@
     "season": 15,
     "episode": 10,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 88,
@@ -789,7 +789,7 @@
     "season": 15,
     "episode": 11,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 89,
@@ -798,7 +798,7 @@
     "season": 15,
     "episode": 12,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 90,
@@ -807,7 +807,7 @@
     "season": 9,
     "episode": 1,
     "duration": 40,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 91,
@@ -816,7 +816,7 @@
     "season": 9,
     "episode": 2,
     "duration": 40,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 92,
@@ -825,7 +825,7 @@
     "season": 9,
     "episode": 3,
     "duration": 40,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 93,
@@ -834,7 +834,7 @@
     "season": 9,
     "episode": 4,
     "duration": 40,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 94,
@@ -843,7 +843,7 @@
     "season": 9,
     "episode": 5,
     "duration": 40,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 95,
@@ -852,7 +852,7 @@
     "season": 9,
     "episode": 6,
     "duration": 40,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 96,
@@ -861,7 +861,7 @@
     "season": 9,
     "episode": 7,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 97,
@@ -870,7 +870,7 @@
     "season": 9,
     "episode": 8,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 98,
@@ -879,7 +879,7 @@
     "season": 9,
     "episode": 9,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 99,
@@ -888,7 +888,7 @@
     "season": 9,
     "episode": 10,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 100,
@@ -897,7 +897,7 @@
     "season": 9,
     "episode": 11,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 101,
@@ -906,7 +906,7 @@
     "season": 9,
     "episode": 12,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 102,
@@ -915,7 +915,7 @@
     "season": 9,
     "episode": 13,
     "duration": 40,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 103,
@@ -924,7 +924,7 @@
     "season": 3,
     "episode": 1,
     "duration": 43,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 104,
@@ -933,7 +933,7 @@
     "season": 3,
     "episode": 2,
     "duration": 43,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 105,
@@ -942,7 +942,7 @@
     "season": 3,
     "episode": 3,
     "duration": 43,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 106,
@@ -951,7 +951,7 @@
     "season": 3,
     "episode": 4,
     "duration": 43,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 107,
@@ -960,7 +960,7 @@
     "season": 3,
     "episode": 5,
     "duration": 43,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 108,
@@ -969,7 +969,7 @@
     "season": 3,
     "episode": 6,
     "duration": 43,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 109,
@@ -978,7 +978,7 @@
     "season": 3,
     "episode": 7,
     "duration": 43,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 110,
@@ -987,7 +987,7 @@
     "season": 3,
     "episode": 8,
     "duration": 43,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 111,
@@ -996,7 +996,7 @@
     "season": 3,
     "episode": 9,
     "duration": 43,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 112,
@@ -1005,61 +1005,61 @@
     "season": 3,
     "episode": 10,
     "duration": 43,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 113,
-    "date": null,
+    "date": "",
     "title": 10,
     "season": 3,
     "episode": 11,
     "duration": 43,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 114,
-    "date": null,
+    "date": "",
     "title": 10,
     "season": 3,
     "episode": 12,
     "duration": 43,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 115,
-    "date": null,
+    "date": "",
     "title": 10,
     "season": 3,
     "episode": 13,
     "duration": 43,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 116,
-    "date": null,
+    "date": "",
     "title": 10,
     "season": 3,
     "episode": 14,
     "duration": 43,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 117,
-    "date": null,
+    "date": "",
     "title": 10,
     "season": 3,
     "episode": 15,
     "duration": 43,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 118,
-    "date": null,
+    "date": "",
     "title": 10,
     "season": 3,
     "episode": 16,
     "duration": 43,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 119,
@@ -1068,7 +1068,7 @@
     "season": 5,
     "episode": 1,
     "duration": 45,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 120,
@@ -1077,7 +1077,7 @@
     "season": 5,
     "episode": 2,
     "duration": 45,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 121,
@@ -1086,7 +1086,7 @@
     "season": 5,
     "episode": 3,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 122,
@@ -1095,7 +1095,7 @@
     "season": 5,
     "episode": 4,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 123,
@@ -1104,7 +1104,7 @@
     "season": 5,
     "episode": 5,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 124,
@@ -1113,7 +1113,7 @@
     "season": 5,
     "episode": 6,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 125,
@@ -1122,7 +1122,7 @@
     "season": 5,
     "episode": 7,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 126,
@@ -1131,7 +1131,7 @@
     "season": 5,
     "episode": 8,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 127,
@@ -1140,7 +1140,7 @@
     "season": 5,
     "episode": 9,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 128,
@@ -1149,7 +1149,7 @@
     "season": 5,
     "episode": 10,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 129,
@@ -1158,7 +1158,7 @@
     "season": 5,
     "episode": 11,
     "duration": 45,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 130,
@@ -1167,7 +1167,7 @@
     "season": 6,
     "episode": 1,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 131,
@@ -1176,7 +1176,7 @@
     "season": 6,
     "episode": 2,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 132,
@@ -1185,7 +1185,7 @@
     "season": 6,
     "episode": 3,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 133,
@@ -1194,7 +1194,7 @@
     "season": 6,
     "episode": 4,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 134,
@@ -1203,7 +1203,7 @@
     "season": 6,
     "episode": 5,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 135,
@@ -1212,7 +1212,7 @@
     "season": 6,
     "episode": 6,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 136,
@@ -1221,7 +1221,7 @@
     "season": 6,
     "episode": 7,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 137,
@@ -1230,7 +1230,7 @@
     "season": 6,
     "episode": 8,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 138,
@@ -1239,7 +1239,7 @@
     "season": 6,
     "episode": 9,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 139,
@@ -1248,43 +1248,43 @@
     "season": 6,
     "episode": 10,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 140,
-    "date": null,
+    "date": "",
     "title": 12,
     "season": 6,
     "episode": 11,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 141,
-    "date": null,
+    "date": "",
     "title": 12,
     "season": 6,
     "episode": 12,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 142,
-    "date": null,
+    "date": "",
     "title": 12,
     "season": 6,
     "episode": 13,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 143,
-    "date": null,
+    "date": "",
     "title": 12,
     "season": 6,
     "episode": 14,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 144,
@@ -1293,7 +1293,7 @@
     "season": 11,
     "episode": 1,
     "duration": 22,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 145,
@@ -1302,7 +1302,7 @@
     "season": 11,
     "episode": 2,
     "duration": 22,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 146,
@@ -1311,7 +1311,7 @@
     "season": 11,
     "episode": 3,
     "duration": 22,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 147,
@@ -1320,7 +1320,7 @@
     "season": 11,
     "episode": 4,
     "duration": 22,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 148,
@@ -1329,7 +1329,7 @@
     "season": 11,
     "episode": 5,
     "duration": 22,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 149,
@@ -1338,7 +1338,7 @@
     "season": 11,
     "episode": 6,
     "duration": 22,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 150,
@@ -1347,7 +1347,7 @@
     "season": 11,
     "episode": 7,
     "duration": 22,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 151,
@@ -1356,7 +1356,7 @@
     "season": 11,
     "episode": 8,
     "duration": 22,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 152,
@@ -1365,7 +1365,7 @@
     "season": 11,
     "episode": 9,
     "duration": 22,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 153,
@@ -1374,7 +1374,7 @@
     "season": 11,
     "episode": 10,
     "duration": 22,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 154,
@@ -1383,7 +1383,7 @@
     "season": 11,
     "episode": 11,
     "duration": 22,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 155,
@@ -1392,7 +1392,7 @@
     "season": 11,
     "episode": 12,
     "duration": 22,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 156,
@@ -1401,7 +1401,7 @@
     "season": 11,
     "episode": 13,
     "duration": 22,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 157,
@@ -1410,7 +1410,7 @@
     "season": 6,
     "episode": 1,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 158,
@@ -1419,7 +1419,7 @@
     "season": 6,
     "episode": 2,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 159,
@@ -1428,7 +1428,7 @@
     "season": 6,
     "episode": 3,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 160,
@@ -1437,7 +1437,7 @@
     "season": 6,
     "episode": 4,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 161,
@@ -1446,7 +1446,7 @@
     "season": 6,
     "episode": 5,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 162,
@@ -1455,7 +1455,7 @@
     "season": 6,
     "episode": 6,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 163,
@@ -1464,7 +1464,7 @@
     "season": 6,
     "episode": 7,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 164,
@@ -1473,7 +1473,7 @@
     "season": 6,
     "episode": 8,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 165,
@@ -1482,7 +1482,7 @@
     "season": 6,
     "episode": 9,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 166,
@@ -1491,7 +1491,7 @@
     "season": 6,
     "episode": 10,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 167,
@@ -1500,7 +1500,7 @@
     "season": 6,
     "episode": 11,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 168,
@@ -1509,7 +1509,7 @@
     "season": 4,
     "episode": 1,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 169,
@@ -1518,7 +1518,7 @@
     "season": 4,
     "episode": 2,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 170,
@@ -1527,7 +1527,7 @@
     "season": 4,
     "episode": 3,
     "duration": 42,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 171,
@@ -1536,7 +1536,7 @@
     "season": 4,
     "episode": 4,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 172,
@@ -1545,7 +1545,7 @@
     "season": 4,
     "episode": 5,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 173,
@@ -1554,7 +1554,7 @@
     "season": 4,
     "episode": 6,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 174,
@@ -1563,7 +1563,7 @@
     "season": 4,
     "episode": 7,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 175,
@@ -1572,7 +1572,7 @@
     "season": 4,
     "episode": 8,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 176,
@@ -1581,7 +1581,7 @@
     "season": 4,
     "episode": 9,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 177,
@@ -1590,7 +1590,7 @@
     "season": 4,
     "episode": 10,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 178,
@@ -1599,7 +1599,7 @@
     "season": 4,
     "episode": 11,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 179,
@@ -1608,7 +1608,7 @@
     "season": 4,
     "episode": 12,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 180,
@@ -1617,7 +1617,7 @@
     "season": 4,
     "episode": 13,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 181,
@@ -1626,7 +1626,7 @@
     "season": 4,
     "episode": 14,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 182,
@@ -1635,7 +1635,7 @@
     "season": 4,
     "episode": 15,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 183,
@@ -1644,7 +1644,7 @@
     "season": 4,
     "episode": 16,
     "duration": 42,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 184,
@@ -1653,7 +1653,7 @@
     "season": 3,
     "episode": 1,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 185,
@@ -1662,7 +1662,7 @@
     "season": 3,
     "episode": 2,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 186,
@@ -1671,7 +1671,7 @@
     "season": 3,
     "episode": 3,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 187,
@@ -1680,7 +1680,7 @@
     "season": 3,
     "episode": 4,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 188,
@@ -1689,7 +1689,7 @@
     "season": 3,
     "episode": 5,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 189,
@@ -1698,7 +1698,7 @@
     "season": 3,
     "episode": 6,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 190,
@@ -1707,7 +1707,7 @@
     "season": 3,
     "episode": 7,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 191,
@@ -1716,7 +1716,7 @@
     "season": 3,
     "episode": 8,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 192,
@@ -1725,7 +1725,7 @@
     "season": 3,
     "episode": 9,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 193,
@@ -1734,7 +1734,7 @@
     "season": 3,
     "episode": 10,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 194,
@@ -1743,7 +1743,7 @@
     "season": 3,
     "episode": 11,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 195,
@@ -1752,7 +1752,7 @@
     "season": 3,
     "episode": 12,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 196,
@@ -1761,7 +1761,7 @@
     "season": 3,
     "episode": 13,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 197,
@@ -1770,7 +1770,7 @@
     "season": 3,
     "episode": 14,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 198,
@@ -1779,7 +1779,7 @@
     "season": 3,
     "episode": 15,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 199,
@@ -1788,7 +1788,7 @@
     "season": 3,
     "episode": 16,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 200,
@@ -1797,7 +1797,7 @@
     "season": 3,
     "episode": 17,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 201,
@@ -1806,7 +1806,7 @@
     "season": 3,
     "episode": 18,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 202,
@@ -1815,7 +1815,7 @@
     "season": 3,
     "episode": 19,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 203,
@@ -1824,7 +1824,7 @@
     "season": 3,
     "episode": 20,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 204,
@@ -1833,7 +1833,7 @@
     "season": 3,
     "episode": 21,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 205,
@@ -1842,7 +1842,7 @@
     "season": 3,
     "episode": 22,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 206,
@@ -1851,7 +1851,7 @@
     "season": 3,
     "episode": 23,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 207,
@@ -1860,7 +1860,7 @@
     "season": 3,
     "episode": 24,
     "duration": 27,
-    "watched": true
+    "watched": 1
   },
   {
     "_id": 208,
@@ -1869,7 +1869,7 @@
     "season": 3,
     "episode": 25,
     "duration": 27,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 209,
@@ -1878,7 +1878,7 @@
     "season": 3,
     "episode": 26,
     "duration": 27,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 210,
@@ -1887,7 +1887,7 @@
     "season": 3,
     "episode": 27,
     "duration": 27,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 211,
@@ -1896,7 +1896,7 @@
     "season": 3,
     "episode": 28,
     "duration": 27,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 212,
@@ -1905,7 +1905,7 @@
     "season": 3,
     "episode": 29,
     "duration": 27,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 213,
@@ -1914,7 +1914,7 @@
     "season": 3,
     "episode": 30,
     "duration": 27,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 214,
@@ -1923,7 +1923,7 @@
     "season": 3,
     "episode": 31,
     "duration": 27,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 215,
@@ -1932,7 +1932,7 @@
     "season": 3,
     "episode": 32,
     "duration": 27,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 216,
@@ -1941,7 +1941,7 @@
     "season": 3,
     "episode": 33,
     "duration": 27,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 217,
@@ -1950,7 +1950,7 @@
     "season": 3,
     "episode": 34,
     "duration": 27,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 218,
@@ -1959,7 +1959,7 @@
     "season": 3,
     "episode": 35,
     "duration": 27,
-    "watched": false
+    "watched": 0
   },
   {
     "_id": 219,
@@ -1968,6 +1968,6 @@
     "season": 1,
     "episode": 1,
     "duration": 60,
-    "watched": false
+    "watched": 0
   }
 ]

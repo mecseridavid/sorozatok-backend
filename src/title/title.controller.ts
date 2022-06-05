@@ -28,7 +28,7 @@ export default class TitleController implements Controller {
 
     private getAllTitles = async (_req: Request, res: Response, next: NextFunction) => {
         try {
-            const titles = await this.title.find().populate("episodes", "-title");
+            const titles = await this.title.find().populate("episodes", "-title").sort("_id");
             res.send(titles);
         } catch (error) {
             next(new HttpException(400, error.message));
@@ -87,6 +87,7 @@ export default class TitleController implements Controller {
     private addNewTitle = async (req: Request, res: Response, next: NextFunction) => {
         try {
             const titleData: Title = req.body;
+            console.log(req.body);
             const response = await this.title.create({
                 ...titleData,
             });

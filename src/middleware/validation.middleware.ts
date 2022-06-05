@@ -4,9 +4,9 @@ import * as express from "express";
 import HttpException from "../exceptions/HttpException";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/explicit-module-boundary-types
-export default function validationMiddleware(type: any, skipMissingProperties = false): express.RequestHandler {
-    return (req, res, next) => {
-        validate(plainToInstance(type, req.body), { skipMissingProperties }).then((errors: ValidationError[]) => {
+export default function validationMiddleware(type: any, skipUndefinedProperties = false): express.RequestHandler {
+    return (req, _res, next) => {
+        validate(plainToInstance(type, req.body), { skipUndefinedProperties }).then((errors: ValidationError[]) => {
             if (errors.length > 0) {
                 const message = errors.map((error: ValidationError) => Object.values(error.constraints)).join(", ");
                 next(new HttpException(400, message));

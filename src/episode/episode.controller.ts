@@ -69,8 +69,9 @@ export default class EpisodeController implements Controller {
     private modifyEpisode = async (req: Request, res: Response, next: NextFunction) => {
         try {
             const id = req.params.id;
-            if (await this.episode.exists({ id: id })) {
+            if (await this.episode.exists({ _id: id })) {
                 const { date, season, episode, duration, watched } = req.body;
+                console.log(req.body);
                 const episodeResponse = await this.episode.findByIdAndUpdate(id, { $set: { date: date, season: season, episode: episode, duration: duration, watched: watched } }, { new: true });
                 res.send(episodeResponse);
             } else {

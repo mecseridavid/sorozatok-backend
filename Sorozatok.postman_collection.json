@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "09b600a2-d371-4917-bebe-5168f7f058a0",
-		"name": "Sorozatok(beadando)",
+		"_postman_id": "31f38214-ec1b-4020-ae88-7502336d16be",
+		"name": "Sorozatok",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -26,12 +26,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:5000/title",
-									"protocol": "http",
+									"raw": "{{url}}/title",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"title"
 									]
@@ -45,15 +43,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:5000/title/2",
-									"protocol": "http",
+									"raw": "{{url}}/title/26",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"title",
-										"2"
+										"26"
 									]
 								}
 							},
@@ -65,12 +61,10 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:5000/title/0/10/-1/title6",
-									"protocol": "http",
+									"raw": "{{url}}/title/0/10/-1/title6",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"title",
 										"0",
@@ -89,7 +83,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"title\": \"igsehgoishengiophnseoiglpknhsp\"\r\n}",
+									"raw": "{\r\n    \"img\": \"https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -97,12 +91,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:5000/title/5",
-									"protocol": "http",
+									"raw": "{{url}}/title/5",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"title",
 										"5"
@@ -117,12 +109,10 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:5000/title/7",
-									"protocol": "http",
+									"raw": "{{url}}/title/7",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"title",
 										"7"
@@ -143,7 +133,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"date\": \"2020-04-31\",\r\n    \"title\": null,\r\n    \"season\": 1,\r\n    \"episode\": 1,\r\n    \"duration\": 22\r\n}",
+									"raw": "{\r\n    \"date\": \"2020.04.31\",\r\n    \"title\": 7,\r\n    \"season\": 1,\r\n    \"episode\": 1,\r\n    \"duration\": 22\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -151,12 +141,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:5000/episode",
-									"protocol": "http",
+									"raw": "{{url}}/episode",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"episode"
 									]
@@ -170,22 +158,20 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:5000/episode/10",
-									"protocol": "http",
+									"raw": "{{url}}/episode/68",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"episode",
-										"10"
+										"68"
 									]
 								}
 							},
 							"response": []
 						},
 						{
-							"name": "modify title by ids",
+							"name": "modify episodes title",
 							"request": {
 								"method": "PATCH",
 								"header": [],
@@ -199,12 +185,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:5000/episode/10/3/2",
-									"protocol": "http",
+									"raw": "{{url}}/episode/10/3/2",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"episode",
 										"10",
@@ -216,13 +200,13 @@
 							"response": []
 						},
 						{
-							"name": "modify title",
+							"name": "modify episode",
 							"request": {
 								"method": "PATCH",
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"date\": \"2018-04-01\"\r\n}",
+									"raw": "{\r\n    \"date\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -230,15 +214,13 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:5000/episode/10",
-									"protocol": "http",
+									"raw": "{{url}}/episode/68",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"episode",
-										"10"
+										"68"
 									]
 								}
 							},
@@ -249,25 +231,32 @@
 							"request": {
 								"method": "DELETE",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
 								"url": {
-									"raw": "http://localhost:5000/episode/9",
-									"protocol": "http",
+									"raw": "{{url}}/episode/1",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"episode",
-										"9"
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get episodes by titleID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/episodes/26",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"episodes",
+										"26"
 									]
 								}
 							},
@@ -284,12 +273,10 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:5000/users",
-									"protocol": "http",
+									"raw": "{{url}}/users",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"users"
 									]
@@ -303,12 +290,10 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:5000/user/0",
-									"protocol": "http",
+									"raw": "{{url}}/user/0",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"user",
 										"0"
@@ -332,12 +317,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:5000/user/0",
-									"protocol": "http",
+									"raw": "{{url}}/user/0",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"user",
 										"0"
@@ -352,12 +335,10 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:5000/user/1",
-									"protocol": "http",
+									"raw": "{{url}}/user/1",
 									"host": [
-										"localhost"
+										"{{url}}"
 									],
-									"port": "5000",
 									"path": [
 										"user",
 										"1"
@@ -413,7 +394,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"usernameOrEmail\": \"testtest\",\r\n    \"password\": \"test1234\"\r\n}",
+							"raw": "{\r\n    \"usernameOrEmail\": \"test\",\r\n    \"password\": \"test1234\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -421,12 +402,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/auth/login",
-							"protocol": "http",
+							"raw": "{{url}}/auth/login",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"auth",
 								"login"
@@ -450,12 +429,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/auth/register",
-							"protocol": "http",
+							"raw": "{{url}}/auth/register",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"auth",
 								"register"
@@ -472,12 +449,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/titles",
-					"protocol": "http",
+					"raw": "{{url}}/titles",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "5000",
 					"path": [
 						"titles"
 					]
@@ -491,12 +466,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/episodes",
-					"protocol": "http",
+					"raw": "{{url}}/episodes",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "5000",
 					"path": [
 						"episodes"
 					]
@@ -544,6 +517,11 @@
 		{
 			"key": "cookie",
 			"value": "",
+			"type": "default"
+		},
+		{
+			"key": "url",
+			"value": "http://localhost:5000",
 			"type": "default"
 		}
 	]

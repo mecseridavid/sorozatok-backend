@@ -26,8 +26,8 @@ const episodeSchema = new Schema<Episode>(
             required: true,
         },
         watched: {
-            type: Boolean,
-            default: false,
+            type: Number,
+            default: 0,
         },
     },
     { versionKey: false },
